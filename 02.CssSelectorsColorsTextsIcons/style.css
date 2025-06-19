@@ -1,0 +1,35 @@
+.container #listElement {
+    background-color: yellow;
+}
+
+#coding {
+    color: red;
+    border: 5px solid purple;
+}
+
+div span {
+    background-color: blue;
+}
+
+.classElement {
+    background-color: green;
+}
+
+#idElement {
+    background-color: white;
+    color: red;
+}
+
+.classElement2 {
+    background-color:  green;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.links #google {
+    background-color: yellow;
+}
