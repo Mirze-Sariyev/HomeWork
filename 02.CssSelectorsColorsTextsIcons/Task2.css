@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 650px;
+
+}
+
+.twitter,
+.instagram,
+.youtube {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.twitter,
+.youtube {
+    border: 2px solid black;
+}
+
+.instagram {
+    background-color: #E2306C;
+    color: white;
+}
+
+.twitter-icon,
+.instagram-icon,
+.youtube-icon {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+button {
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+.instagram button {
+    background-color: white;
+    color: deeppink;
+    border: none;
+}
+
+.instagram a {
+    color: #E2306C;
+}
+
+p {
+    margin: 10px;
+}
