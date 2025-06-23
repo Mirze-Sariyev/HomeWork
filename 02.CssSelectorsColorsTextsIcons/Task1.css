@@ -20,7 +20,7 @@ div span {
     color: red;
 }
 
-.classElement2 {
+.classElement2, .classElement2 span {
     background-color:  green;
 }
 

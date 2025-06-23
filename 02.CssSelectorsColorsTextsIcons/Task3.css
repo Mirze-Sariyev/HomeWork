@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F4F4;
+    gap: 50px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe h1 {
+    text-align: left;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.profile span {
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile span #job {
+    color: #5A5B4F;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.profile button {
+    background-color: #2E2E2E;
+    color: white;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.profile .social-icons {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.profile .social-icons i {
+    color: black;
+    font-size: 30px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+}
+
+.inner-aboutMe {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+}
+
+.inner-aboutMe p {
+    color: #5A5B4F;
+    font-size: 17px;
+}
+
+.aboutMe .inner-aboutMe h1 {
+    font-size: 50px;
+}
+
+.aboutMe .buttons {
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.aboutMe button {
+    background-color: #2E2E2E;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
